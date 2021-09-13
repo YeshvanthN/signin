@@ -1,0 +1,139 @@
+.signin {
+    background-image: url("./signin.jpg");
+    /* https://documents.trendmicro.com/images/TEx/articles/20191201194724501-134-4lt0eud-800.jpg */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+@import url("https://fonts.googleapis.com/css?family=Numans");
+
+html,
+body {
+    font-family: "Numans", sans-serif;
+    color: white !important;
+}
+
+.form-group > input {
+    /* background-color: rgba(207, 203, 203, 0.549); */
+    color: white !important;
+    /* backdrop-filter: opacity(10%); */
+    border-radius: 4px !important;
+    border-color: transparent;
+    height: 40px;
+}
+input {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+input:focus {
+    outline: none !important;
+    border-bottom: 2px solid rgb(82, 141, 224) !important;
+    box-shadow: 0 0 5px #719ece;
+}
+/* .custom-checkbox{} */
+.containerBox {
+    margin-left: 60%;
+    /* margin-right: 100px !important; */
+    /* padding-left: 65vw; */
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+    /* margin-right: 10%; */
+    justify-content: right !important;
+    /* position: absolute; */
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center !important;
+    text-align: right !important;
+}
+.card {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 300px;
+    /* margin-top: auto;
+      margin-bottom: auto; */
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 400px;
+    background-color: rgba(56, 53, 53, 0.597) !important;
+    backdrop-filter: blur(1rem);
+    border-color: whitesmoke !important;
+    border-radius: 7px;
+}
+
+.input-group {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.btn-right {
+    text-align: right;
+    padding-right: 5%;
+}
+
+.btn-submit {
+    /* background-clip: text; */
+    /* backdrop-filter:blur(5px); */
+    border-color: rgb(82, 141, 224) !important;
+    background-color: rgba(130, 177, 243, 0.222);
+    border-radius: 30px !important;
+    width: 130px;
+    color: rgb(82, 141, 224);
+}
+
+.card-header {
+    color: rgb(82, 141, 224);
+    text-underline-position: under;
+    text-underline-offset: 5px;
+    background-color: transparent !important;
+    border: none !important;
+    text-decoration: underline 3px;
+    margin-bottom: 1rem !important;
+    padding-top: 0 !important;
+    padding-bottom: 20px !important;
+}
+
+input::-webkit-input-placeholder {
+    color: white !important;
+}
+
+input:-moz-placeholder {
+    /* Firefox 18- */
+    color: white !important;
+}
+
+input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white !important;
+}
+
+input:-ms-input-placeholder {
+    color: white !important;
+}
+
+@media (max-width: 1200px) {
+    .containerBox {
+        margin-left: 45%;
+    }
+}
+
+@media (max-width: 800px) {
+    .containerBox {
+        margin-left: 30%;
+    }
+}
+
+@media (max-width: 700px) {
+    .containerBox {
+        margin-left: 0;
+    }
+}
+@media (max-width: 577px) {
+    .containerBox {
+        width: 95vw;
+    }
+}
